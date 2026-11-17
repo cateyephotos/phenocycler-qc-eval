@@ -1,0 +1,28 @@
+{
+  "file": "tonsil31_crop.ome.tif",
+  "sha256": "d2bbf5898841947f5b101763567f7a0c8811a8665ef773416cae9f1e2feab97f",
+  "size_bytes": 82618740,
+  "size_mb": 83,
+  "release_url": "https://github.com/cateyephotos/phenocycler-qc-eval/releases/download/example-data-v1/tonsil31_crop.ome.tif",
+  "source_image": "Tonsil31plex_Scan1.qptiff (25200 x 15360 px, 0.5074 um per pixel, 32 channels, uint8)",
+  "region": {
+    "y0": 14760,
+    "x0": 4428,
+    "size_um": 1000,
+    "size_px": 1971
+  },
+  "region_scores": {
+    "tissue": 0.969,
+    "follicle": 0.1263,
+    "t_zone": 0.1677,
+    "epithelium": 0.1234,
+    "tox": 0.3571,
+    "cd163": 0.3739,
+    "carryover": 0.6079,
+    "score": 1.7745
+  },
+  "how_chosen": "scripts/score_example_regions.py scored 1344 candidate 1 mm regions (step 250 um); this was the best. Full list of the 10 best: example_region_scores.json. The engine check on the crop: 61 tissue windows, TOX -> CD163 flagged. Pairs with CD21 are not tested because CD21 is near-blank in this section (near-blank channels are excluded by rule); a pair that was tested and came out clean is CD3e -> CD38 (same cycle, both bright).",
+  "made_with": "python scripts/make_example_crop.py --qptiff Tonsil31plex_Scan1.qptiff --y0 14760 --x0 4428 --size-um 1000 --out examples/tonsil31_crop.ome.tif",
+  "tifffile": "2026.3.3",
+  "imagecodecs": "2026.3.6"
+}

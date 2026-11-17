@@ -1,0 +1,1080 @@
+{
+  "formatVersion": "2",
+  "formatType": "Protein",
+  "name": "31MarkerpanelB",
+  "tissueType": "HumanFFPE",
+  "tissueInfo": "",
+  "resolution": 0.5,
+  "channels": [
+    {
+      "name": "DAPI",
+      "defaultExposure": 6
+    },
+    {
+      "name": "ATTO550",
+      "defaultExposure": 150
+    },
+    {
+      "name": "CY5",
+      "defaultExposure": 150
+    },
+    {
+      "name": "AF750",
+      "defaultExposure": 150
+    }
+  ],
+  "wells": [
+    {
+      "wellName": "H3",
+      "items": [
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "None"
+        },
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "None"
+        },
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "CY5",
+          "dye": "CY5",
+          "exposure": 150,
+          "panel": "None"
+        },
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "None"
+        }
+      ]
+    },
+    {
+      "wellName": "C1",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "None"
+        },
+        {
+          "id": "8321ed56-42f4-40db-8fd3-3fa40597b310",
+          "inventoryItemType": "Marker",
+          "markerName": "CD31",
+          "barcode": "BX001",
+          "reporter": "RX001",
+          "clone": "EP3095",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "aef6633f-214f-44f6-a497-cc54d1ec0cc6",
+          "inventoryItemType": "Marker",
+          "markerName": "CD4",
+          "barcode": "BX003",
+          "reporter": "RX003",
+          "clone": "EPR6855",
+          "channel": "CY5",
+          "dye": "AF647",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "5e6ad4a4-02b4-4aca-b1cc-500b10bca273",
+          "inventoryItemType": "Marker",
+          "markerName": "CD20",
+          "barcode": "BX007",
+          "reporter": "RX007",
+          "clone": "L26",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "Inventoried"
+        }
+      ]
+    },
+    {
+      "wellName": "C2",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "2ddeea5f-21b7-459b-be2e-485ea3bfdf01",
+          "inventoryItemType": "Marker",
+          "markerName": "CD44",
+          "barcode": "BX005",
+          "reporter": "RX005",
+          "clone": "156-3C11",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "da5f2fe7-a3e6-471a-8f07-7e503ebdb688",
+          "inventoryItemType": "Marker",
+          "markerName": "FOXP3",
+          "barcode": "BX031",
+          "reporter": "RX031",
+          "clone": "236A/E7",
+          "channel": "CY5",
+          "dye": "AF647",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "3d1cac2c-00e9-49ba-ba72-32606fdbfd71",
+          "inventoryItemType": "Marker",
+          "markerName": "SMA",
+          "barcode": "BX013",
+          "reporter": "RX013",
+          "clone": "1A4",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "Inventoried"
+        }
+      ]
+    },
+    {
+      "wellName": "C3",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "None"
+        },
+        {
+          "id": "eb90ad47-c7fb-4526-af5b-b8af0936dbc2",
+          "inventoryItemType": "Marker",
+          "markerName": "CD66",
+          "barcode": "BX016",
+          "reporter": "RX016",
+          "clone": "ASL-32",
+          "channel": "CY5",
+          "dye": "AF647",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "17856995-6ad4-44f2-868b-7ca51dbbbb16",
+          "inventoryItemType": "Marker",
+          "markerName": "HLA-DR",
+          "barcode": "BX033",
+          "reporter": "RX033",
+          "clone": "EPR3692",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "Inventoried"
+        }
+      ]
+    },
+    {
+      "wellName": "C4",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "None"
+        },
+        {
+          "id": "65c6e9ac-422c-470b-9734-1f3d9e543350",
+          "inventoryItemType": "Marker",
+          "markerName": "CD8",
+          "barcode": "BX026",
+          "reporter": "RX026",
+          "clone": "C8/144B",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "e8cc4db4-1548-4ecf-8ebf-2150cbd213a8",
+          "inventoryItemType": "Marker",
+          "markerName": "PDL1",
+          "barcode": "BX067",
+          "reporter": "RX067",
+          "clone": "XX",
+          "channel": "CY5",
+          "dye": "CY5",
+          "exposure": 150,
+          "panel": "None"
+        },
+        {
+          "id": "dcfd1e8b-f171-4d64-ac30-53bebbc5af49",
+          "inventoryItemType": "Marker",
+          "markerName": "Pan-Cytokeratin",
+          "barcode": "BX019",
+          "reporter": "RX019",
+          "clone": "AE-1/AE-3",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 80,
+          "panel": "Inventoried"
+        }
+      ]
+    },
+    {
+      "wellName": "C5",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "None"
+        },
+        {
+          "id": "82d4d5ff-e9dd-4451-9f8e-58e1a9b15af0",
+          "inventoryItemType": "Marker",
+          "markerName": "CD21",
+          "barcode": "BX032",
+          "reporter": "RX032",
+          "clone": "EP3093",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "47ded243-28eb-4b8a-9c35-3cbef8130912",
+          "inventoryItemType": "Marker",
+          "markerName": "CD45",
+          "barcode": "BX021",
+          "reporter": "RX021",
+          "clone": "D9M81",
+          "channel": "CY5",
+          "dye": "AF647",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "None"
+        }
+      ]
+    },
+    {
+      "wellName": "C6",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "None"
+        },
+        {
+          "id": "4afebf70-00d7-4c35-8e95-437d8ad10749",
+          "inventoryItemType": "Marker",
+          "markerName": "CD14",
+          "barcode": "BX037",
+          "reporter": "RX037",
+          "clone": "EPR3653",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "e4b6fb0f-ad18-42da-a582-8223c3f1df87",
+          "inventoryItemType": "Marker",
+          "markerName": "IDO1",
+          "barcode": "BX027",
+          "reporter": "RX027",
+          "clone": "V1NC3IDO",
+          "channel": "CY5",
+          "dye": "AF647",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "None"
+        }
+      ]
+    },
+    {
+      "wellName": "C7",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "a5f61811-0cc0-4109-ae02-5e81f6f13d5c",
+          "inventoryItemType": "Marker",
+          "markerName": "Podoplanin",
+          "barcode": "BX121",
+          "reporter": "RX121",
+          "clone": "NC-08",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "d2ad93f7-6929-4cb2-83f1-d06d0874a20e",
+          "inventoryItemType": "Marker",
+          "markerName": "PD-1",
+          "barcode": "BX046",
+          "reporter": "RX046",
+          "clone": "D4W2J",
+          "channel": "CY5",
+          "dye": "AF647",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "None"
+        }
+      ]
+    },
+    {
+      "wellName": "C8",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "None"
+        },
+        {
+          "id": "d3fd58b5-74a9-495b-a82b-430fbb25c81d",
+          "inventoryItemType": "Marker",
+          "markerName": "TOX",
+          "barcode": "BX060",
+          "reporter": "RX060",
+          "clone": "E6I3Q",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "825205e3-1f22-4dc7-829a-2bfa4e6b5610",
+          "inventoryItemType": "Marker",
+          "markerName": "Collagen IV",
+          "barcode": "BX042",
+          "reporter": "RX042",
+          "clone": "EPR20966",
+          "channel": "CY5",
+          "dye": "AF647",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "None"
+        }
+      ]
+    },
+    {
+      "wellName": "C9",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "6786ce59-b134-4832-9832-44eeb50a90d4",
+          "inventoryItemType": "Marker",
+          "markerName": "CD163",
+          "barcode": "BX069",
+          "reporter": "RX069",
+          "clone": "EPR19518",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "CY5",
+          "dye": "CY5",
+          "exposure": 150,
+          "panel": "None"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "None"
+        }
+      ]
+    },
+    {
+      "wellName": "C10",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "18b9dd6c-7117-4b2d-8b89-f9fced737fa5",
+          "inventoryItemType": "Marker",
+          "markerName": "CD38",
+          "barcode": "BX089",
+          "reporter": "RX089",
+          "clone": "E7Z8C",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "191f1f75-242a-44ac-8db8-a39a1a1e0cb8",
+          "inventoryItemType": "Marker",
+          "markerName": "CD3e",
+          "barcode": "BX080",
+          "reporter": "RX080",
+          "clone": "EP449E",
+          "channel": "CY5",
+          "dye": "AF647",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "None"
+        }
+      ]
+    },
+    {
+      "wellName": "C11",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "None"
+        },
+        {
+          "id": "0e9bb8ae-cef2-4f51-bf96-a42bf7b662b1",
+          "inventoryItemType": "Marker",
+          "markerName": "MPO",
+          "barcode": "BX098",
+          "reporter": "RX098",
+          "clone": "E1E7I",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "66e4a488-ac96-4453-9f2c-173ba5cba352",
+          "inventoryItemType": "Marker",
+          "markerName": "ICOS",
+          "barcode": "BX054",
+          "reporter": "RX054",
+          "clone": "D1K2T",
+          "channel": "CY5",
+          "dye": "AF647",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "None"
+        }
+      ]
+    },
+    {
+      "wellName": "C12",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "None"
+        },
+        {
+          "id": "1e92b685-6e1f-421c-949c-b8668aebc0c5",
+          "inventoryItemType": "Marker",
+          "markerName": "Ki67",
+          "barcode": "BX047",
+          "reporter": "RX047",
+          "clone": "B56",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 120,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "dface38e-ea06-488a-be9f-f55425cf4c75",
+          "inventoryItemType": "Marker",
+          "markerName": "LAG3",
+          "barcode": "BX055",
+          "reporter": "RX055",
+          "clone": "EPR20261",
+          "channel": "CY5",
+          "dye": "AF647",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "None"
+        }
+      ]
+    },
+    {
+      "wellName": "D1",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "f3c9976b-cbe9-4bd9-be0b-8490020e9ef0",
+          "inventoryItemType": "Marker",
+          "markerName": "iNOS",
+          "barcode": "BX023",
+          "reporter": "RX023",
+          "clone": "SP126",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "baeec632-97c4-4372-af76-2dfa73b01d76",
+          "inventoryItemType": "Marker",
+          "markerName": "TCF-1",
+          "barcode": "BX061",
+          "reporter": "RX061",
+          "clone": "C63D9",
+          "channel": "CY5",
+          "dye": "AF647",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "None"
+        }
+      ]
+    },
+    {
+      "wellName": "D2",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "None"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "None"
+        },
+        {
+          "id": "77d50035-775e-451b-acf2-72873c851e1f",
+          "inventoryItemType": "Marker",
+          "markerName": "HIF1A",
+          "barcode": "BX062",
+          "reporter": "RX062",
+          "clone": "EP1215Y",
+          "channel": "CY5",
+          "dye": "AF647",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "None"
+        }
+      ]
+    },
+    {
+      "wellName": "D3",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "None"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "None"
+        },
+        {
+          "id": "36356b4f-cdd9-4df1-90c8-686cca1b4852",
+          "inventoryItemType": "Marker",
+          "markerName": "Bcl-2",
+          "barcode": "BX085",
+          "reporter": "RX085",
+          "clone": "EPR17509",
+          "channel": "CY5",
+          "dye": "AF647",
+          "exposure": 150,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "None"
+        }
+      ]
+    },
+    {
+      "wellName": "D4",
+      "items": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "None"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "None"
+        },
+        {
+          "id": "8fa4b591-7bbd-422f-bbf8-ab36b4867825",
+          "inventoryItemType": "Marker",
+          "markerName": "CD68",
+          "barcode": "BX015",
+          "reporter": "RX015",
+          "clone": "KP1",
+          "channel": "CY5",
+          "dye": "AF647",
+          "exposure": 75,
+          "panel": "Inventoried"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 75,
+          "panel": "None"
+        }
+      ]
+    },
+    {
+      "wellName": "H4",
+      "items": [
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "DAPI",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "DAPI",
+          "dye": "DAPI",
+          "exposure": 6,
+          "panel": "None"
+        },
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "ATTO550",
+          "dye": "ATTO550",
+          "exposure": 150,
+          "panel": "None"
+        },
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "CY5",
+          "dye": "CY5",
+          "exposure": 150,
+          "panel": "None"
+        },
+        {
+          "id": "c64355e2-3dbc-4509-8a8b-dc32547f1877",
+          "inventoryItemType": "Marker",
+          "markerName": "--",
+          "barcode": "None",
+          "reporter": "None",
+          "clone": "None",
+          "channel": "AF750",
+          "dye": "AF750",
+          "exposure": 150,
+          "panel": "None"
+        }
+      ]
+    }
+  ],
+  "unusedItems": [
+    {
+      "id": "da5f2fe7-a3e6-471a-8f07-7e503ebdb688",
+      "inventoryItemType": "Marker",
+      "markerName": "FOXP3",
+      "barcode": "BX031",
+      "reporter": "RX031",
+      "clone": "236A/E7",
+      "channel": "CY5",
+      "dye": "AF647",
+      "exposure": 0,
+      "panel": "Inventoried"
+    },
+    {
+      "id": "4f64295a-b1ae-4b3f-8e81-1594e7c91b50",
+      "inventoryItemType": "Marker",
+      "markerName": "CD3e",
+      "barcode": "BX045",
+      "reporter": "RX045",
+      "clone": "EP449E",
+      "channel": "CY5",
+      "dye": "AF647",
+      "exposure": 0,
+      "panel": "Inventoried"
+    },
+    {
+      "id": "abb63072-d82e-4497-809d-4098cd033a52",
+      "inventoryItemType": "Marker",
+      "markerName": "CD45RO",
+      "barcode": "BX017",
+      "reporter": "RX017",
+      "clone": "UCHL1",
+      "channel": "CY5",
+      "dye": "AF647",
+      "exposure": 0,
+      "panel": "Inventoried"
+    },
+    {
+      "id": "17856995-6ad4-44f2-868b-7ca51dbbbb16",
+      "inventoryItemType": "Marker",
+      "markerName": "HLA-DR",
+      "barcode": "BX033",
+      "reporter": "RX033",
+      "clone": "EPR3692",
+      "channel": "AF750",
+      "dye": "AF750",
+      "exposure": 0,
+      "panel": "Inventoried"
+    },
+    {
+      "id": "4f64295a-b1ae-4b3f-8e81-1594e7c91b50",
+      "inventoryItemType": "Marker",
+      "markerName": "CD3e",
+      "barcode": "BX045",
+      "reporter": "RX045",
+      "clone": "EP449E",
+      "channel": "CY5",
+      "dye": "AF647",
+      "exposure": 0,
+      "panel": "Inventoried"
+    },
+    {
+      "id": "d2ad93f7-6929-4cb2-83f1-d06d0874a20e",
+      "inventoryItemType": "Marker",
+      "markerName": "PD-1",
+      "barcode": "BX046",
+      "reporter": "RX046",
+      "clone": "D4W2J",
+      "channel": "CY5",
+      "dye": "AF647",
+      "exposure": 0,
+      "panel": "Inventoried"
+    },
+    {
+      "id": "8fa4b591-7bbd-422f-bbf8-ab36b4867825",
+      "inventoryItemType": "Marker",
+      "markerName": "CD68",
+      "barcode": "BX015",
+      "reporter": "RX015",
+      "clone": "KP1",
+      "channel": "CY5",
+      "dye": "AF647",
+      "exposure": 0,
+      "panel": "Inventoried"
+    },
+    {
+      "id": "1e92b685-6e1f-421c-949c-b8668aebc0c5",
+      "inventoryItemType": "Marker",
+      "markerName": "Ki67",
+      "barcode": "BX047",
+      "reporter": "RX047",
+      "clone": "B56",
+      "channel": "ATTO550",
+      "dye": "ATTO550",
+      "exposure": 0,
+      "panel": "Inventoried"
+    }
+  ]
+}

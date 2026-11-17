@@ -1,0 +1,69 @@
+[
+  {
+    "source": "CD8",
+    "target": "CD21",
+    "control": "CD20",
+    "target_where_source_bright": 2.8960275650024414,
+    "target_where_source_low": 0.01342848688364029,
+    "share_target_bright_on_source_bright": 0.15384079783188542,
+    "target_where_control_bright": 0.34711018204689026,
+    "target_where_control_low": 0.033595502376556396,
+    "share_target_bright_on_control_bright": 0.2749884845693229,
+    "share_target_bright_nuclear": 0.08000278512741958,
+    "chance_share": 0.05,
+    "figure": "followup_CD8_to_CD21.png"
+  },
+  {
+    "source": "TOX",
+    "target": "CD163",
+    "control": "CD68",
+    "target_where_source_bright": 11.58888053894043,
+    "target_where_source_low": 3.0377609729766846,
+    "share_target_bright_on_source_bright": 0.456688929366525,
+    "target_where_control_bright": 5.549285888671875,
+    "target_where_control_low": 4.209753513336182,
+    "share_target_bright_on_control_bright": 0.15019962834170483,
+    "share_target_bright_nuclear": 0.4797979797979798,
+    "chance_share": 0.05,
+    "figure": "followup_TOX_to_CD163.png"
+  },
+  {
+    "source": "CD45",
+    "target": "IDO1",
+    "control": null,
+    "target_where_source_bright": 34.34507369995117,
+    "target_where_source_low": 16.222713470458984,
+    "share_target_bright_on_source_bright": 0.03918810498786117,
+    "share_target_bright_nuclear": 0.015389745032457046,
+    "chance_share": 0.05,
+    "figure": "followup_CD45_to_IDO1.png"
+  },
+  {
+    "source": "LAG3",
+    "target": "TCF-1",
+    "control": "CD3e",
+    "target_where_source_bright": 57.32304000854492,
+    "target_where_source_low": 22.29339599609375,
+    "share_target_bright_on_source_bright": 0.27003593981603685,
+    "target_where_control_bright": 65.33170318603516,
+    "target_where_control_low": 22.314538955688477,
+    "share_target_bright_on_control_bright": 0.35924587301265,
+    "share_target_bright_nuclear": 0.5417368880586407,
+    "chance_share": 0.05,
+    "figure": "followup_LAG3_to_TCF-1.png"
+  },
+  {
+    "source": "CD3e",
+    "target": "ICOS",
+    "control": "CD3e",
+    "target_where_source_bright": 49.3734245300293,
+    "target_where_source_low": 13.35233211517334,
+    "share_target_bright_on_source_bright": 0.5074577494436759,
+    "target_where_control_bright": 49.3734245300293,
+    "target_where_control_low": 13.35233211517334,
+    "share_target_bright_on_control_bright": 0.5074577494436759,
+    "share_target_bright_nuclear": 0.11677793147691506,
+    "chance_share": 0.05,
+    "figure": "followup_CD3e_to_ICOS.png"
+  }
+]

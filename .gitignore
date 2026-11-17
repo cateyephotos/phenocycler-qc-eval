@@ -1,0 +1,15 @@
+examples/*.ome.tif
+examples/*.part
+runs/
+__pycache__/
+.venv*/
+.venv/
+.superpowers/
+.base-ast/
+*.egg-info/
+build/
+dist/
+
+# review material kept out of the public repo
+docs/screens/
+docs/review_log.md

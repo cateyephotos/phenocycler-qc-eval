@@ -1,0 +1,87 @@
+{
+  "calls": {
+    "CHECK": 16,
+    "OK": 9,
+    "RAISE": 5,
+    "LOWER": 2
+  },
+  "raise": [
+    "CD31",
+    "CD21",
+    "CD163",
+    "Ki67",
+    "iNOS"
+  ],
+  "check": [
+    "DAPI",
+    "CD20",
+    "CD4",
+    "CD44",
+    "SMA",
+    "FOXP3",
+    "HLA-DR",
+    "PDL1",
+    "CD14",
+    "TOX",
+    "Collagen IV",
+    "CD3e",
+    "ICOS",
+    "LAG3",
+    "TCF-1",
+    "Bcl-2"
+  ],
+  "lower": [
+    "CD45",
+    "HIF1A"
+  ],
+  "flagged_crosstalk": [
+    {
+      "source": "CD8",
+      "target": "CD21",
+      "kind": "adjacent_cycle_carryover",
+      "asymmetry": 0.852
+    },
+    {
+      "source": "TOX",
+      "target": "CD163",
+      "kind": "adjacent_cycle_carryover",
+      "asymmetry": 0.088
+    },
+    {
+      "source": "CD45",
+      "target": "IDO1",
+      "kind": "adjacent_cycle_carryover",
+      "asymmetry": 0.009
+    },
+    {
+      "source": "LAG3",
+      "target": "TCF-1",
+      "kind": "adjacent_cycle_carryover",
+      "asymmetry": -0.093
+    },
+    {
+      "source": "CD3e",
+      "target": "ICOS",
+      "kind": "adjacent_cycle_carryover",
+      "asymmetry": -0.097
+    }
+  ],
+  "rules": {
+    "saturation_lower": 0.005,
+    "stain_index_low": 3.0,
+    "signal_low_8bit": 25,
+    "positive_fraction_low": 0.005,
+    "spill_flag_margin": 0.05
+  },
+  "metrics": {
+    "background": "mean and SD of tissue pixels below the channel's Otsu threshold (computed on log1p of non-zero tissue pixels)",
+    "signal": "99.5th percentile of tissue pixels",
+    "stain_index": "(mean of positive pixels - mean of background pixels) / (2 x SD of background pixels); flow-cytometry stain index applied to pixels",
+    "signal_to_background": "signal / max(background mean, 1)",
+    "positive_fraction": "fraction of tissue pixels above the Otsu threshold",
+    "saturation_fraction": "fraction of tissue pixels at the bit-depth maximum (255 for 8-bit)",
+    "dynamic_range_used": "99.9th percentile / bit-depth maximum",
+    "spill(A->B)": "(mean B where A is in its top 1%) - (mean B where A is below its median), divided by B's 99.5th percentile. Elevation of B where A is bright, as a share of B's own range",
+    "asymmetry(A->B)": "spill(A->B) - spill(B->A). Bleed-through and carryover are one-way; biological co-expression is two-way"
+  }
+}

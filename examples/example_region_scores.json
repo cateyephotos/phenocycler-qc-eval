@@ -1,0 +1,140 @@
+{
+  "size_um": 1000.0,
+  "step_um": 250.0,
+  "coarse_level": 2,
+  "coarse_um_per_pixel": 2.03,
+  "pixel_size_um": 0.5074,
+  "high_percentile": 85.0,
+  "targets": {
+    "follicle": 0.15,
+    "t_zone": 0.2,
+    "epithelium": 0.1,
+    "tox": 0.25,
+    "cd163": 0.2,
+    "carryover": 0.65
+  },
+  "min_tissue": 0.9,
+  "candidates_scored": 1344,
+  "top": [
+    {
+      "tissue": 0.969,
+      "follicle": 0.1263,
+      "t_zone": 0.1677,
+      "epithelium": 0.1234,
+      "tox": 0.3571,
+      "cd163": 0.3739,
+      "carryover": 0.6079,
+      "score": 1.7745,
+      "y0": 14760,
+      "x0": 4428
+    },
+    {
+      "tissue": 0.93,
+      "follicle": 0.119,
+      "t_zone": 0.1885,
+      "epithelium": 0.1389,
+      "tox": 0.2973,
+      "cd163": 0.4854,
+      "carryover": 0.6451,
+      "score": 1.748,
+      "y0": 13776,
+      "x0": 4920
+    },
+    {
+      "tissue": 0.919,
+      "follicle": 0.1206,
+      "t_zone": 0.1586,
+      "epithelium": 0.1543,
+      "tox": 0.2849,
+      "cd163": 0.4727,
+      "carryover": 0.6515,
+      "score": 1.7258,
+      "y0": 13776,
+      "x0": 5412
+    },
+    {
+      "tissue": 0.956,
+      "follicle": 0.1219,
+      "t_zone": 0.1639,
+      "epithelium": 0.0841,
+      "tox": 0.2616,
+      "cd163": 0.2059,
+      "carryover": 0.5674,
+      "score": 1.7037,
+      "y0": 6888,
+      "x0": 6888
+    },
+    {
+      "tissue": 0.937,
+      "follicle": 0.1094,
+      "t_zone": 0.2304,
+      "epithelium": 0.12,
+      "tox": 0.3882,
+      "cd163": 0.4601,
+      "carryover": 0.6104,
+      "score": 1.6741,
+      "y0": 18204,
+      "x0": 3936
+    },
+    {
+      "tissue": 0.962,
+      "follicle": 0.1118,
+      "t_zone": 0.2104,
+      "epithelium": 0.0821,
+      "tox": 0.3518,
+      "cd163": 0.4724,
+      "carryover": 0.6106,
+      "score": 1.663,
+      "y0": 18696,
+      "x0": 3936
+    },
+    {
+      "tissue": 0.934,
+      "follicle": 0.1207,
+      "t_zone": 0.1515,
+      "epithelium": 0.0989,
+      "tox": 0.304,
+      "cd163": 0.2301,
+      "carryover": 0.5669,
+      "score": 1.6614,
+      "y0": 7872,
+      "x0": 6396
+    },
+    {
+      "tissue": 0.96,
+      "follicle": 0.1303,
+      "t_zone": 0.1476,
+      "epithelium": 0.0937,
+      "tox": 0.3233,
+      "cd163": 0.2688,
+      "carryover": 0.5668,
+      "score": 1.6406,
+      "y0": 8364,
+      "x0": 5904
+    },
+    {
+      "tissue": 0.912,
+      "follicle": 0.1024,
+      "t_zone": 0.2184,
+      "epithelium": 0.1879,
+      "tox": 0.2855,
+      "cd163": 0.3935,
+      "carryover": 0.6599,
+      "score": 1.6298,
+      "y0": 13776,
+      "x0": 4428
+    },
+    {
+      "tissue": 0.962,
+      "follicle": 0.1037,
+      "t_zone": 0.1932,
+      "epithelium": 0.14,
+      "tox": 0.2816,
+      "cd163": 0.4465,
+      "carryover": 0.6289,
+      "score": 1.6288,
+      "y0": 14268,
+      "x0": 4920
+    }
+  ]
+}

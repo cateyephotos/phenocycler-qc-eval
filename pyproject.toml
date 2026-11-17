@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phenocycler-qc-eval"
+version = "0.1.0"
+description = "Staining QC for PhenoCycler (CODEX-style) multiplex images: titration and crosstalk checks with next-run advice."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Carlos Thomas" }]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-image",
+    "pandas",
+    "matplotlib",
+    "tifffile>=2025.1",
+    "zarr>=3",
+    "imagecodecs",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+pqe = "phenocycler_qc_eval.cli:main"
+pqe-gui = "phenocycler_qc_eval.gui.app:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+phenocycler_qc_eval = ["data/*.xpd", "data/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "example: needs the downloaded example image",
+    "gui: needs a display for the Tkinter GUI",
+    "slow: runs a full synthetic analysis in a child process (deselect with -m \"not slow\")",
+]
